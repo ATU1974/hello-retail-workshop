@@ -37,7 +37,7 @@ The limit query parameter is optional.  The default is one result when limit is 
 ```sh
 /contributions
 ```
-The contributions request returns the product ids that have contributions.  As an exercise, alter the winnerApi.js code to also return the lastSequenceNumber as well as the productId, then re-deploy.
+The contributions request returns the product ids that have contributions.  As an exercise, alter the winnerApi.js code to also return the lastEventId as well as the productId, then re-deploy.  (If you did Lesson 6, rather than Lesson 2, skip this extra credit.)
 ```sh
 $ serverless deploy function -f contributions -s $STAGE
 ```
